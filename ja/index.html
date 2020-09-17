@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="TokyoWesterns CTF 6th 2020">
+    <meta property="og:url" content="https://ctf.westerns.tokyo">
+    <meta property="og:image" content="https://ctf.westerns.tokyo/images/tokyowesterns.png">
+    <meta property="og:title" content="TokyoWesterns CTF 6th 2020">
+    <meta property="og:description" content="TokyoWesterns CTF is a security competition hosted by TokyoWesterns.">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@TokyoWesterns">
+    <meta name="twitter:description" content="Top n teams (TBD) of TokyoWesterns CTF 6th 2020 would be qualified to CODE BLUE CTF 2020!">
+
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title>TokyoWesterns CTF 6th 2020</title>
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/site.js"></script>
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/timecircles/1.5.3/TimeCircles.min.js"></script>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/timecircles/1.5.3/TimeCircles.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="languages">
+        <a href="/">English</a>
+        /
+        Japanese
+    </div>
+    <h1>
+# TokyoWesterns CTF 6th 2020
+</h1>
+
+<div class="bg">
+<img src="/images/tokyowesterns.png" height="200" />
+<img src="/images/cbctf.png" height="200" />
+<br /><br /><br />
+<div id="DateCountdown" data-date="2020-09-19T09:00:00+09:00" style="width: 100%;"></div>
+</div>
+
+<div class="contents">
+TokyoWesterns CTFは, チームTokyoWesternsが主催するセキュリティコンテストです。<br />
+<u>上位何チームか (未定)</u> は CODE BLUE CTF 2020 へ招待されます!
+</div>
+<h2>## 情報</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>形式</td>
+      <td>Jeopardy</td>
+    </tr>
+    <tr>
+      <td>日時</td>
+      <td>2020/09/19 09:00 - 2019/09/21 09:00 (JST)</td>
+    </tr>
+    <tr>
+      <td>ジャンル</td>
+      <td>Crypto, Pwning, Reversing, Web, …</td>
+    </tr>
+    <tr>
+      <td>言語</td>
+      <td>英語/日本語</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>## 登録</h2>
+<p><a href="https://score.ctf.westerns.tokyo/">こちら</a>のスコアサーバから登録できます。<br />
+コンテスト終了まで登録できる予定です。</p>
+
+<h2>## ルール</h2>
+<ul>
+  <li>チーム戦です。</li>
+  <li>チームに人数制限はありません。もちろん一人のチームでも参加できます。</li>
+  <li>指定のない限り,フラグの形式は "TWCTF{something}" です。</li>
+  <li>フラグをスコアサーバーに提出することで得点が得られます。</li>
+  <li>一つの問題には複数のフラグが含まれることがあります。</li>
+  <li>より高得点のチームが、高い順位となります。他のチームと同じ点数の場合には、最後にフラグを送信した時刻が早いチームがより高い順位となります。</li>
+  <li>他のチームを攻撃・妨害してはなりません。</li>
+  <li>"*.chal.ctf.westerns.tokyo" 以外のサーバを攻撃してはなりません。</li>
+  <li>他のチームと答えやヒントを共有してはなりません。</li>
+  <li>サーバへの優しさを忘れずに。</li>
+</ul>
+
+<h2>## IRC情報</h2>
+<ul>
+  <li><a href="https://webchat.freenode.net/?channels=twctf">#twctf@freenode</a></li>
+</ul>
+
+<h2>## 過去のコンテスト</h2>
+<ul>
+  <li><a href="https://tokyowesterns.github.io/ctf2019/">TokyoWesterns CTF 5th 2019</a></li>
+  <li><a href="https://tokyowesterns.github.io/ctf2018/">TokyoWesterns CTF 4th 2018</a></li>
+  <li><a href="https://tokyowesterns.github.io/ctf2017/">Tokyo Westerns CTF 3rd 2017</a></li>
+  <li><a href="https://tokyowesterns.github.io/ctf2016/">Tokyo Westerns/MMA CTF 2nd 2016</a></li>
+  <li><a href="https://uecmma.github.io/mmactf/">MMA CTF 1st 2015</a></li>
+</ul>
+
+<script>
+$("#DateCountdown").TimeCircles({
+"animation": "ticks",
+"bg_width": 0.1,
+"fg_width": 0.02,
+"circle_bg_color": "#60686F",
+"time": {
+    "Days": {
+        "text": "日",
+        "color": "#333",
+        "show": true
+    },
+    "Hours": {
+        "text": "時",
+        "color": "#333",
+        "show": true
+    },
+    "Minutes": {
+        "text": "分",
+        "color": "#333",
+        "show": true
+    },
+    "Seconds": {
+        "text": "秒",
+        "color": "#333",
+        "show": true
+    }
+}
+});
+</script>
+
+
+  </body>
+</html>
